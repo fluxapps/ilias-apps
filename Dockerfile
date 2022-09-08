@@ -9,7 +9,7 @@ RUN /flux-ilias-ilias-base/bin/install-archive.sh https://github.com/fluxapps/At
 RUN /flux-ilias-ilias-base/bin/install-archive.sh https://github.com/fluxapps/Certificate/archive/refs/heads/main.tar.gz /var/www/html/Customizing/global/plugins/Services/UIComponent/UserInterfaceHook/Certificate
 RUN /flux-ilias-ilias-base/bin/install-archive.sh https://github.com/fluxapps/CertificateCron/archive/refs/heads/main.tar.gz /var/www/html/Customizing/global/plugins/Services/Cron/CronHook/CertificateCron
 
-RUN /flux-ilias-ilias-base/bin/install-archive.sh https://github.com/fluxapps/Changelog/archive/refs/heads/master.tar.gz /var/www/html/Customizing/global/plugins/Services/EventHandling/EventHook/ChangeLog
+RUN /flux-ilias-ilias-base/bin/install-archive.sh https://github.com/fluxapps/ChangeLog/archive/refs/heads/main.tar.gz /var/www/html/Customizing/global/plugins/Services/EventHandling/EventHook/ChangeLog
 
 RUN /flux-ilias-ilias-base/bin/install-archive.sh https://github.com/fluxapps/CompetenceRecommender/archive/refs/heads/main.tar.gz /var/www/html/Customizing/global/plugins/Services/UIComponent/UserInterfaceHook/CompetenceRecommender
 
@@ -20,7 +20,7 @@ RUN /flux-ilias-ilias-base/bin/install-archive.sh https://github.com/fluxapps/Le
 
 RUN /flux-ilias-ilias-base/bin/install-archive.sh https://github.com/fluxapps/LiveVoting/archive/refs/heads/main.tar.gz /var/www/html/Customizing/global/plugins/Services/Repository/RepositoryObject/LiveVoting
 
-RUN /flux-ilias-ilias-base/bin/install-archive.sh https://github.com/fluxapps/MultiAssign/archive/refs/heads/master.tar.gz /var/www/html/Customizing/global/plugins/Services/UIComponent/UserInterfaceHook/MultiAssign
+RUN /flux-ilias-ilias-base/bin/install-archive.sh https://github.com/fluxapps/MultiAssign/archive/refs/heads/main.tar.gz /var/www/html/Customizing/global/plugins/Services/UIComponent/UserInterfaceHook/MultiAssign
 
 RUN /flux-ilias-ilias-base/bin/install-archive.sh https://github.com/fluxapps/OnlyOffice/archive/refs/heads/main.tar.gz /var/www/html/Customizing/global/plugins/Services/Repository/RepositoryObject/OnlyOffice
 
