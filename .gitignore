@@ -1,5 +1,5 @@
 *
 !.dockerignore
 !.gitignore
-!Dockerfile
 !README.md
+!build
