@@ -41,6 +41,7 @@ RUN /flux-ilias-ilias-base/bin/install-archive.sh https://github.com/fluxapps/Vi
 
 RUN /flux-ilias-ilias-base/bin/install-archive.sh https://github.com/fluxapps/Ilias.RESTPlugin/archive/refs/heads/feature/sr-app-routes.tar.gz Customizing/global/plugins/Services/UIComponent/UserInterfaceHook/REST
 RUN /flux-ilias-ilias-base/bin/install-archive.sh https://github.com/fluxapps/PegasusHelper/archive/refs/heads/main.tar.gz Customizing/global/plugins/Services/UIComponent/UserInterfaceHook/PegasusHelper
+RUN /flux-ilias-ilias-base/bin/install-archive.sh https://github.com/fluxapps/Learnplaces/archive/refs/heads/main.tar.gz  Customizing/global/plugins/Services/Repository/RepositoryObject/Learnplaces
 
 
 FROM fluxms/flux-ilias-nginx:7 AS nginx
